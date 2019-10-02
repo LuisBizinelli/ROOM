@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ROOM</string>
+    <string name="editNomeHint">nome do produto</string>
+    <string name="editQtdeHint">Quantidade.</string>
+    <string name="btnSalvarText">SALVAR</string>
+    <string name="btnNovoItemText">NOVO ITEM</string>
 </resources>

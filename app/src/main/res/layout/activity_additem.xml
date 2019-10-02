@@ -5,16 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".AdditemActivity">
 
-    <Button
-        android:id="@+id/btnNovoItem"
-        android:text="@string/btnNovoItemText"
+    <EditText
+        android:id="@+id/editNome"
+        android:hint="@string/editNomeHint"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
-    <ListView
-        android:id="@+id/listCompras"
+    <EditText
+        android:id="@+id/editQtde"
+        android:hint="@string/editQtdeHint"
+        android:inputType="number"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnSalvar"
+        android:text="@string/btnSalvarText"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"/>
-
 </androidx.appcompat.widget.LinearLayoutCompat>
